@@ -1,0 +1,32 @@
+project:
+  name: Revisiting Activation Outliers in Transformer Quantization
+  out_dir: runs
+  task: qnli
+  model_name: bert_base_uncased
+  seed_list: [1000]   # limit to completed baseline seed to avoid missing checkpoints
+  batch_size: 8
+  max_seq_length: 128
+
+methods:
+  fp32: false
+  w8a8: true
+  mp_ptq: true
+  peg_k3_perm: true
+  percentile_ext: true
+
+# Mixed precision quant-dict from Qualcomm README
+mixed_precision:
+  quant_dict: "{'y': 16, 'h': 16, 'x': 16}"
+
+peg:
+  quant_dict: "{'y': 'ngp3', 'h': 'ngp3', 'x': 'ngp3'}"
+  flags: "--per-embd --per-groups 3 --per-groups-permute --per-groups-permute-shared-h"
+
+extension:
+  percentile: 99.9
+
+profiling:
+  enabled: true
+  warmup: 20
+  iters: 100
+  cpu: false

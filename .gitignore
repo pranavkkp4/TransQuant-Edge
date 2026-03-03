@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Large model files
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# Logs
+*.log
+runs/*/checkpoint*
+runs/*/pytorch_model*
+runs/*/trainer_state.json
+
+# Keep only aggregated results
+!runs/results/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+
+# OS junk
+.DS_Store
+Thumbs.db

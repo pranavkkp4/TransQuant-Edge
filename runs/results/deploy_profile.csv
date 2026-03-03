@@ -1,0 +1,6 @@
+method,method_tag,p50_ms,p95_ms,peak_vram_mb,model_size_mb,model_path
+FP32,fp32,58.37563133239746,59.08480014801025,483.665408,417.66991424560547,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\fp32_seed1000\out\checkpoint-39000
+W8A8,w8a8,58.61102294921875,59.13185138702393,485.500416,418.31622219085693,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\w8a8_seed1000\out
+MP-PTQ,mp_ptq,58.77299118041992,59.554240226745605,486.286848,418.31622219085693,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\mp_ptq_seed1000\out
+"PEG(K=3,P)",peg_k3_perm,58.968048095703125,59.807643508911134,486.286848,419.64324855804443,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\peg_k3_perm_seed1000\out
+Percentile,percentile_ext,59.118032455444336,59.7749439239502,486.286848,418.33441066741943,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\percentile_ext_seed1000\out

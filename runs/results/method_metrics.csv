@@ -1,0 +1,8 @@
+method,seed,task,accuracy,eval_loss,checkpoint_path,timestamp
+fp32,1000,qnli,0.8965769723595094,0.33372655510902405,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\fp32_seed1000\out,2026-03-02T15:53:09
+mp_ptq,1000,qnli,0.8941973274757459,0.3248591125011444,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\mp_ptq_seed1000\out,2026-03-02T15:56:46
+peg_k2_perm,1000,qnli,0.4946000366099213,0.8799395561218262,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\peg_k2_perm_seed1000\out,2026-03-02T20:52:42
+peg_k3_perm,1000,qnli,0.6611751784733663,0.5658080577850342,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\peg_k3_perm_seed1000\out,2026-03-02T15:58:20
+peg_k4_perm,1000,qnli,0.8617975471352737,0.330047607421875,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\peg_k4_perm_seed1000\out,2026-03-02T20:52:42
+percentile_ext,1000,qnli,0.5053999633900788,0.7109243869781494,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\percentile_ext_seed1000\out,2026-03-02T16:00:38
+w8a8,1000,qnli,0.5432912319238513,0.7071447372436523,C:\Users\Pranav\Desktop\CU Denver\TransQuant-Edge\runs\w8a8_seed1000\out,2026-03-02T15:54:47

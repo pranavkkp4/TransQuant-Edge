@@ -1,0 +1,80 @@
+[
+  {
+    "layer_index": 0,
+    "mean_variance": 0.25209625624120235,
+    "mean_kurtosis": 8.972863912582397,
+    "top1_energy_frac": 0.1449212022125721
+  },
+  {
+    "layer_index": 1,
+    "mean_variance": 0.3419375456869602,
+    "mean_kurtosis": 13.898582935333252,
+    "top1_energy_frac": 0.1682767067104578
+  },
+  {
+    "layer_index": 2,
+    "mean_variance": 0.41232458129525185,
+    "mean_kurtosis": 41.03573751449585,
+    "top1_energy_frac": 0.3009488768875599
+  },
+  {
+    "layer_index": 3,
+    "mean_variance": 0.4052353613078594,
+    "mean_kurtosis": 50.83787298202515,
+    "top1_energy_frac": 0.31277570128440857
+  },
+  {
+    "layer_index": 4,
+    "mean_variance": 0.48782312497496605,
+    "mean_kurtosis": 72.93656158447266,
+    "top1_energy_frac": 0.3452398106455803
+  },
+  {
+    "layer_index": 5,
+    "mean_variance": 0.5317542850971222,
+    "mean_kurtosis": 82.07560348510742,
+    "top1_energy_frac": 0.3603747859597206
+  },
+  {
+    "layer_index": 6,
+    "mean_variance": 0.5772883966565132,
+    "mean_kurtosis": 75.53442573547363,
+    "top1_energy_frac": 0.3410720080137253
+  },
+  {
+    "layer_index": 7,
+    "mean_variance": 0.568490706384182,
+    "mean_kurtosis": 59.621171951293945,
+    "top1_energy_frac": 0.3192359395325184
+  },
+  {
+    "layer_index": 8,
+    "mean_variance": 0.5500819161534309,
+    "mean_kurtosis": 92.32486724853516,
+    "top1_energy_frac": 0.36743219941854477
+  },
+  {
+    "layer_index": 9,
+    "mean_variance": 0.5328927487134933,
+    "mean_kurtosis": 113.14226150512695,
+    "top1_energy_frac": 0.3810063488781452
+  },
+  {
+    "layer_index": 10,
+    "mean_variance": 0.5305118337273598,
+    "mean_kurtosis": 134.56228828430176,
+    "top1_energy_frac": 0.40661777555942535
+  },
+  {
+    "layer_index": 11,
+    "mean_variance": 0.44088054448366165,
+    "mean_kurtosis": 271.14455223083496,
+    "top1_energy_frac": 0.551311694085598
+  },
+  {
+    "layer_index": 12,
+    "mean_variance": 0.21310057304799557,
+    "mean_kurtosis": 73.17319536209106,
+    "top1_energy_frac": 0.5331934280693531
+  }
+]

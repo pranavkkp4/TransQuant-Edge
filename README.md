@@ -7,7 +7,7 @@ This project reproduces and extends the findings from:
 **Bondarenko et al., "Understanding and Overcoming the Challenges of Efficient Transformer Quantization", EMNLP 2021 (Qualcomm AI Research)**  
 https://arxiv.org/abs/2109.12948
 
-It also supports the accompanying research paper:
+This is my code for my accompanying research paper:
 
 **Activation Outliers in Transformer Quantization: Reproduction, Statistical Analysis, and Deployment Tradeoffs**  
 https://arxiv.org/abs/2603.04308
